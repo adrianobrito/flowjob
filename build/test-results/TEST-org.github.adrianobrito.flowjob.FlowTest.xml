@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.github.adrianobrito.flowjob.FlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-12-14T20:44:21" hostname="D-FOR-GEO-06" time="0.01">
+  <properties/>
+  <testcase name="shouldExecuteNextOnFlow" classname="org.github.adrianobrito.flowjob.FlowTest" time="0.01"/>
+  <system-out><![CDATA[passo 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
