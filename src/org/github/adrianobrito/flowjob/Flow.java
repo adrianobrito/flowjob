@@ -36,10 +36,8 @@ public class Flow implements Step{
     }
 
     public Flow next(){
-        Step step = null;
-
-        if(isExecuting()){
-            steps.get(currentIndex);
+         if(isExecuting()){
+            Step step = steps.get(currentIndex);
             step.execute();
             currentIndex++;
         } else if(isFinished()){

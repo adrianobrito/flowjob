@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e38c9695-1341-4695-8a74-499646c29b1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Check.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Conditional.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/FlowException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/FlowTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/PrintStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flowjob.iml" afterPath="$PROJECT_DIR$/flowjob.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java" afterPath="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/org/github/adrianobrito/flowjob/Flow.class" afterPath="$PROJECT_DIR$/build/classes/main/org/github/adrianobrito/flowjob/Flow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/github/adrianobrito/flowjob/FlowTest.class" afterPath="$PROJECT_DIR$/build/classes/test/org/github/adrianobrito/flowjob/FlowTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java" afterPath="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-org.github.adrianobrito.flowjob.FlowTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-org.github.adrianobrito.flowjob.FlowTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/org.github.adrianobrito.flowjob.FlowTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/org.github.adrianobrito.flowjob.FlowTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/org.github.adrianobrito.flowjob.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/org.github.adrianobrito.flowjob.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flowjob.iws" />
@@ -70,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlowTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlowTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/FlowTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7941176">
-              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#394#395#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
@@ -161,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepBackTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java">
+      <file leaf-file-name="BackTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23529412">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -394,8 +400,9 @@
         <option value="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/Flow.java" />
         <option value="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/PrintStep.java" />
         <option value="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/FlowException.java" />
-        <option value="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java" />
         <option value="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/FlowTest.java" />
+        <option value="$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java" />
+        <option value="$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java" />
       </list>
     </option>
   </component>
@@ -511,7 +518,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.shouldExecuteNextOnFlow">
+  <component name="RunManager" selected="Gradle.FlowTest">
     <configuration default="false" name="shouldNotExecuteWithoutCases" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -575,6 +582,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;org.github.adrianobrito.flowjob.FlowTest.shouldExecuteNextOnFlow&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanTest" />
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="shouldExecuteAllTheFlow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.github.adrianobrito.flowjob.FlowTest.shouldExecuteAllTheFlow&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -773,20 +799,22 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Gradle.CheckTest" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.shouldCreateConditionalWithCheck" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.shouldNotExecuteWithoutCases" />
       <item index="3" class="java.lang.String" itemvalue="Gradle.FlowTest" />
       <item index="4" class="java.lang.String" itemvalue="Gradle.shouldCreateFlow" />
       <item index="5" class="java.lang.String" itemvalue="Gradle.shouldExecuteNextOnFlow" />
+      <item index="6" class="java.lang.String" itemvalue="Gradle.shouldExecuteAllTheFlow" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.shouldExecuteNextOnFlow" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.shouldCreateFlow" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.FlowTest" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.shouldNotExecuteWithoutCases" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.FlowTest" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.shouldExecuteAllTheFlow" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.shouldExecuteNextOnFlow" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.shouldCreateFlow" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.shouldNotExecuteWithoutCases" />
       </list>
     </recent_temporary>
   </component>
@@ -847,7 +875,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -900,7 +928,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java">
+    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -944,7 +972,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java">
+    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -972,7 +1000,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java">
+    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -1000,7 +1028,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java">
+    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
@@ -1028,14 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/StepBackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1073,10 +1093,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/FlowException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/FlowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/Flow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#394#395#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
@@ -1092,24 +1133,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/github/adrianobrito/flowjob/FlowException.java">
+    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/BackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/github/adrianobrito/flowjob/FlowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7941176">
-          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.23529412">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
